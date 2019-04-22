@@ -1,0 +1,136 @@
+HARD_G
+
+GO_explore:
+    Different exploration strategies
+    
+    G0a: OK at iteration 18
+        BATCH_SIZE = 64
+        NN_ITER = 50,000
+        POLICY TABLE
+        CPOS_ABS = +/- 2.6
+        NN_LR = 1e-3
+        10Nx100ep
+        MIN_MEM_CAP = 200,000
+        NO SEGREGATION
+        Rewards = +/- 100
+        TARGET_REPLACE_FREQ = 500
+    
+G0: OK at iteration 10
+    NN_ITER = 50,000
+    POLICY TABLE
+    CPOS_ABS = +/- 2.6
+    NN_LR = 1e-3
+    10Nx100ep
+    MIN_MEM_CAP = 200,000
+    NO SEGREGATION
+    Rewards = +/- 100
+    TARGET_REPLACE_FREQ = 500
+***************************************************
+    
+    
+    dist_BASE_G_uniform_d: XXX
+        TARGET_REPLACE_FREQ = 1000
+        BATCH_SIZE = 32
+        NN_ITER = 20,000
+        POLICY TABLE
+        CPOS_ABS = +/- 2.6
+        NN_LR = 1e-4
+        10Nx100ep
+        MIN_MEM_CAP = 200,000
+        NO SEGREGATION
+        Rewards = +/- 100
+
+    dist_BASE_G_uniform_c: OK @ iteration 48
+        BATCH_SIZE = 128
+        NN_ITER = 20,000
+        POLICY TABLE
+        CPOS_ABS = +/- 2.6
+        NN_LR = 1e-4
+        10Nx100ep
+        MIN_MEM_CAP = 200,000
+        NO SEGREGATION
+        Rewards = +/- 100
+        TARGET_REPLACE_FREQ = 500
+        
+        
+            dist_BASE_G_uniform_b1: XXX
+                NN_LR = 5e-4
+                NN_ITER = 20,000
+                POLICY TABLE
+                CPOS_ABS = +/- 2.6
+                10Nx100ep
+                MIN_MEM_CAP = 200,000
+                NO SEGREGATION
+                Rewards = +/- 100
+                TARGET_REPLACE_FREQ = 500
+
+
+    dist_BASE_G_uniform_b: OK @ iteration 31
+        NN_LR = 1e-3
+        NN_ITER = 20,000
+        POLICY TABLE
+        CPOS_ABS = +/- 2.6
+        10Nx100ep
+        MIN_MEM_CAP = 200,000
+        NO SEGREGATION
+        Rewards = +/- 100
+        TARGET_REPLACE_FREQ = 500
+        
+            dist_BASE_G_uniform_a2: OK at iteration 10
+                NN_ITER = 50,000
+                POLICY TABLE
+                CPOS_ABS = +/- 2.6
+                NN_LR = 1e-3
+                10Nx100ep
+                MIN_MEM_CAP = 200,000
+                NO SEGREGATION
+                Rewards = +/- 100
+                TARGET_REPLACE_FREQ = 500
+
+            dist_BASE_G_uniform_a1: OK @ iteration 44
+                NN_ITER = 50,000
+                POLICY TABLE
+                CPOS_ABS = +/- 2.6
+                NN_LR = 1e-4
+                10Nx100ep
+                MIN_MEM_CAP = 200,000
+                NO SEGREGATION
+                Rewards = +/- 100
+                TARGET_REPLACE_FREQ = 500
+        
+    dist_BASE_G_uniform_a: XXX
+        NN_ITER = 5,000
+        POLICY TABLE
+        CPOS_ABS = +/- 2.6
+        NN_LR = 1e-4
+        10Nx100ep
+        MIN_MEM_CAP = 200,000
+        NO SEGREGATION
+        Rewards = +/- 100
+        TARGET_REPLACE_FREQ = 500
+
+dist_BASE_G_uniform: OK at iteration 9
+    NN_ITER = 20,000
+    POLICY TABLE
+    CPOS_ABS = +/- 2.6
+    NN_LR = 1e-4
+    10Nx100ep
+    MIN_MEM_CAP = 200,000
+    NO SEGREGATION
+    Rewards = +/- 100
+    TARGET_REPLACE_FREQ = 500
+****************************
+
+BASE_G: OK @ 2000 iter, 170K timesteps
+    NO SEGREGATION
+    Rewards = +/- 100
+    TARGET_REPLACE_FREQ = 500
+    LEARN_START = 2000 timesteps (~EPISODE 200)
+    LR = 1E-4
+    
+    
+
+
+
+
+    

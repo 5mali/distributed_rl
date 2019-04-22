@@ -1,0 +1,105 @@
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm003: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm002: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm004: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm006: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm000: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm004: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: big001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: big001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: big001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: big001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: v102: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm006: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm005: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: big001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm000: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm005: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm007: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm007: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "./HARD_G0-MA_explore_40.py", line 765, in <module>
+    get_ipython().system('jupyter nbconvert --to script ./')
+NameError: name 'get_ipython' is not defined
+srun: error: knm003: task 0: Exited with exit code 1

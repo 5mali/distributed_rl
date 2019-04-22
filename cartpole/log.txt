@@ -1,0 +1,50 @@
+HARD_G0-MA_explore_40:
+	Pole length variable discretized by 40 steps
+
+HARD_G0-MA_explore_10:
+	Pole length variable discretized by 10 steps
+
+HARD_G-right:
+	Random action = right
+
+HARD_G-left:
+	Random action = left
+
+HARD_G:
+	Pole length variation (0.275 <- 0.5 -> 0.725)
+
+GO-MA:
+	Contextualized Policy
+	damper = 0.6
+
+GO_explore:
+	Different exploration strategies for each nodes
+	
+    
+G0: 
+	EPSILON = np.clip((0.4 + (iteration)*0.2) ,0.4,0.98) + np.random.uniform(-0.01,0.01)
+	NN_ITER = 50,000
+	POLICY TABLE
+	CPOS_ABS = +/- 2.6
+	NN_LR = 1e-3
+	10 NODES x 100 EPISODES
+	MIN_MEM_CAP = 200,000
+	Rewards = +/- 100
+	TARGET_REPLACE_FREQ = 500
+
+BASE_G-right:
+	Random action = right
+
+BASE_G-left:
+	Random action = left
+
+BASE_G:
+	LEARN_START	    = 2000 timesteps
+	HIDDEN_LAYER        = 50
+	BATCH_SIZE          = 32
+	LR                  = 1e-4  
+	EPSILON             = 0.9  
+	GAMMA               = 0.9  
+	TARGET_REPLACE_ITER = 500  
+	MEMORY_CAPACITY     = 100000
+	REWARD              = +/- 100
