@@ -1,0 +1,50 @@
+Dist_ENO-v1:
+	10 NODES x 1 DAY
+	REWARD_FUNC = v1
+	NN_ITERATIONS = 1000
+
+Dist_ENO-v0:
+	10 NODES x 1 DAY
+	REWARD_FUNC = v0
+	NN_ITERATIONS = 1000
+
+NN-v1:
+	REWARD_FUNC = v1, LINEAR
+
+********************************************************************
+#fixed stdize() CONSTANTS                                          *
+#fixed weather forecast bug                                        *
+********************************************************************
+NN-v0                                                              *
+********************************************************************
+MODEL:                                                             *
+A0        : INPUT->FC1->RELU->FC_OUT->OUTPUT                       *
+LOSS      : MSE                                                    *
+OPTIMIZER : ADAM                                                   *
+RL        : Double DQN                                             * 
+                                                                   *
+LEARNING:   LEARNING_START  @ MEMORY COUNTER = 480 (20 days)       *
+	    INIT_WEIGHT     = FC1 : KAIMING                        *
+                              OUT : XAVIER                         *
+            WIDTH           = 50                                   *
+            DEPTH           = 1 + 1                                *
+            WEIGHT_DECAY    = NONE                                 *
+            LR              = 1e-4                                 *
+            UPDATE_FREQ     = 18 MONTHS                            *
+            MEMORY          = 36 MONTHS                            *
+            ITERATION       = 100                                  *
+            BATCH_SIZE      = 32                                   *
+            EPSILON         = EPSILON SCHEDULING                   *           
+            GAMMA           = 0.99                                 *
+            LAMBDA          = 0.95                                 *
+            EXPLORATION     = +/- 3 duty cycles                    *
+                                                                   *
+TRAINING:   TOKYO [2000-2009]                                      *
+            BATTERY_RESET     = 0%                                 *
+            REWARD_FUNC       = v0, LINEAR [MAX = +2]              *
+            REWARD_BROADCAST  = FALSE                              *
+            VIOLATION PENALTY = NONE                               *
+                                                                   *
+VALIDATION: TOKYO[2000-2018]                                       *
+            GREEDY POLICY                                          *
+********************************************************************
